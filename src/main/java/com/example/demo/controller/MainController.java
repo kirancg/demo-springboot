@@ -21,4 +21,8 @@ public class MainController {
 		student.setName(student.getName());
 		return student;
 	}
+	
+	public String hii() {
+		return "Hii!";
+	}
 }
