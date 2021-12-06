@@ -25,4 +25,8 @@ public class MainController {
 	public String hii() {
 		return "Hii!";
 	}
+	
+	public String unstash() {
+		return "Unstash";
+	}
 }
