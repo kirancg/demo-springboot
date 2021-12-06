@@ -26,7 +26,12 @@ public class MainController {
 		return "Hii!";
 	}
 	
+<<<<<<< Updated upstream
 	public String unstash() {
 		return "Unstash";
+=======
+	public String stash() {
+		return "Stash";
+>>>>>>> Stashed changes
 	}
 }

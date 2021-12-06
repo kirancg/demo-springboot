@@ -1,8 +1,16 @@
 package com.example.demo.model;
 
 public class Student {
+	
+	
 
-    private int id;
+    public Student(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	private int id;
     private String name;
 
     public int getId() {
